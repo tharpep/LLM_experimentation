@@ -2,9 +2,9 @@ from openai import OpenAI
 
 import os
 
-api_key = os.environ['DeepSeek_Key']
+api_key = os.environ['ORKey']
 
-client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+client = OpenAI(api_key=api_key, base_url="")
 
 
 inp = input("Please input query:")
